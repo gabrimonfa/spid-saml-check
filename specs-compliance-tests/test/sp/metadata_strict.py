@@ -143,8 +143,7 @@ class TestSPMetadata(unittest.TestCase, common.wrap.TestCaseWrap):
                         '--verify',
                         '--insecure',
                         '--id-attr:ID',
-                        'urn:oasis:names:tc:SAML:2.0:metadata:'
-                        'EntityDescriptor',
+                        'urn:oasis:names:tc:SAML:2.0:metadata:EntityDescriptor',
                         METADATA])
         is_valid = True
         msg = 'the metadata signature must be valid - TR pag. 19'
